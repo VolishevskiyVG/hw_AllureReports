@@ -16,6 +16,7 @@ public class SelenideTest {
 
     SelenideElement searchInput = $(".header-search-input");
 
+
     @Test
     public void testIssue() {
         SelenideLogger.addListener("allure", new AllureSelenide());
